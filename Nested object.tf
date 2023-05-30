@@ -1,8 +1,10 @@
 
-#Terraform functions
+
+#Terraform
 locals {
-  myList = [ {“a”:{“b”:{“c”:”d”}}} ]
+  myList = [ {"a":{"b":{"c":"d"}}} ]
 
   value = local.myList[a]
   # value is equal to "d"
 }
+
